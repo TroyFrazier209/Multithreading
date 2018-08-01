@@ -2,6 +2,7 @@
 Programs that utilize multithreading  
 
 Tutoring (Linux Only): Using POSIX threads to mimic a TA tutoring students. TA will either sleep when no students are present, wait for next student, and tutor a student. TA is defined by a thread and each student is defined by a thread. Program ends when all students end their thread and then TA. <br/ >
+Usage: ./ta numStudents numChairs numHelp <br />
 To Compile and link: gcc -pthread TA.c <br/ >
 
 ChangeLog: <br />
