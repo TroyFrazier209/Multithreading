@@ -13,7 +13,7 @@
 	Amount of chairs are defined by the user.
 	If there are no free chairs then a student will leave and come back some other time
 	
-	To compile: gcc -pthread TA.c
+	To compile and link: gcc -pthread TA.c
 */
 #include <stdio.h>
 #include <stdlib.h>
