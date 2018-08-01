@@ -13,6 +13,7 @@
 	Amount of chairs are defined by the user.
 	If there are no free chairs then a student will leave and come back some other time
 	
+	Usage: ./ta numStudents numChairs numHelp
 	To compile and link: gcc -pthread TA.c
 */
 #include <stdio.h>
