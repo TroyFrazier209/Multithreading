@@ -12,6 +12,8 @@
 	Students will sit in a chair which will act like a FIFO queue and wait for the tutor to be available.
 	Amount of chairs are defined by the user.
 	If there are no free chairs then a student will leave and come back some other time
+	
+	To compile: gcc -pthread TA.c
 */
 #include <stdio.h>
 #include <stdlib.h>
