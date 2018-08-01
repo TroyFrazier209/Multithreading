@@ -103,8 +103,6 @@ int main(int argc, char* argv[]){
     pthread_join(studentTid[count],NULL);
 
   printf("All student threads have ended.\n");
-  /* sem_post(&taMutex); //Handles the odd case of a TA being asleep when all student threads have ended
-     sem_post(&taMutex);*/
 
   sem_post(&officeMutex); //Allows TA thread to end
   pthread_join(ta,NULL); //Wait on TA thread
